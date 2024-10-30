@@ -1,0 +1,268 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    background: linear-gradient(135deg, #293d5d, #0F172A);
+    color: white;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.header-img {
+    width: 100%;
+    height: 40vw;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar li {
+    padding: 1rem;
+}
+
+.navbar a:hover {
+    color: #60A5FA;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: #60A5FA;
+    font-size: 50pt;
+}
+
+h2 {
+    font-size: 30pt;
+}
+h3 {
+    font-size: 20pt;
+}
+
+p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+td a:hover {
+    color: #60A5FA;
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.1); 
+}
+
+th {
+    border: 2px solid #ffffff; 
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    border: 2px solid #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#contact, #my-courses, #education, #about-me, .movies {
+    margin: 4rem 0 4rem 0;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+footer a {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #1c1c1c;
+    color: white;
+}
+
+footer img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: #333;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+
+.navbar li:hover {
+    background-color: #575757;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    z-index: 1;
+    width: 100%;
+}
+
+.dropdown li a {
+    padding: 10px;
+    color: white;
+}
+
+.navbar li:hover .dropdown {
+    display: block;
+}
+
+#intro {
+    background-color: #1c1c1c;
+    padding: 2rem;
+}
+
+.visitor-name {
+    color: #60A5FA;
+}
+
+#visitor-name {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#intro h1 {
+    color: #ffffff;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#name-input {
+    outline: none; 
+    border: none;
+    font-size: 1.2rem;
+}
+
+#enter-btn {
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #60A5FA;
+}
+
+#enter-btn:hover {
+    color: #00ff04;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+    cursor: pointer;
+    overflow: hidden;
+    margin: auto;
+}
+
+.profile-image {
+    width: 5rem; 
+    height: 5rem; 
+    object-fit: cover; 
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.message-container {
+    display: flex;
+    justify-content: center;
+}
+
+.message {
+    font-size: 1.5rem;
+    padding: 1.2rem;
+}
+
+.target-item {
+    color: #60A5FA;
+}
+
+.enlarged-image {
+    width: 500px;
+    height: 500px;
+    object-fit: cover; 
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 0;
+}
+
+#dataOutput {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#message {
+    margin: 30px;
+}
+
+#dataContainer {
+    padding: 30px;
+    background-color: #1c1c1c;
+    margin: 30px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    float: left;
+    margin: 30px;
+}

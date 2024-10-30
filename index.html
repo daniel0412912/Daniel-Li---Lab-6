@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 2 Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="img-container">
+        <img
+          class="header-img"
+          src="https://images.unsplash.com/photo-1455849318743-b2233052fcff?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Quote: passion led us here"
+          width="1000"
+        />
+      </div>
+      <nav>
+        <ul class="navbar">
+          <li>
+            <a href="#about-me">About Me</a>
+            <ul class="dropdown">
+              <li><a href="#movies">My Favourite Movies</a></li>
+              <li>
+                <a href="https://github.com/daniel0412912" target="_blank"
+                  >My Github</a
+                >
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/" target="_blank"
+                  >My LinkedIn</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#education">My Education</a>
+            <ul class="dropdown">
+              <li><a href="#education">Toronto Metropolitan University</a></li>
+              <li><a href="#education">Seneca Polytechnic College</a></li>
+              <li><a href="#education">High School</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#my-courses">My Courses</a>
+            <ul class="dropdown">
+              <li>
+                <a href="#courses">Business Intelligence and Analytics</a>
+              </li>
+              <li>
+                <a href="#courses">Strategy, Management and Acquisition</a>
+              </li>
+              <li><a href="#courses">Web Design and Management</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="intro">
+      <h1 id="intro-h1">
+        What is your <span class="visitor-name">name</span>?
+      </h1>
+      <div class="input-container">
+        <input type="text" id="name-input" />
+        <button id="enter-btn">Enter</button>
+      </div>
+
+      <div class="message-container">
+        <p class="message">You hovered <span class="target-item">...</span></p>
+      </div>
+    </div>
+
+    <div id="about-me">
+      <div>
+        <h1>About Me</h1>
+        <div class="image-container">
+          <img
+            src="assets/avatar.png"
+            alt="default avatar"
+            id="profile-image"
+            class="profile-image"
+          />
+        </div>
+        <p>
+          Hello <span class="visitor-name" id="visitor-name">Vistor</span>! My
+          name is Daniel Li, I am currently a student at Toronto Metropolitan
+          University! My program is called Information Technology Management. I
+          enjoy learning about technology and new innovations that can reshape
+          our world to be a better place.
+        </p>
+      </div>
+      <div class="movies" id="movies">
+        <h2>My favourite movies</h2>
+        <ol>
+          <li>The Matrix (1999)</li>
+          <p>
+            A groundbreaking sci-fi action film directed by the Wachowskis,
+            where a computer hacker learns that reality is a simulated world
+            controlled by machines, leading him to join a rebellion against
+            them.
+          </p>
+          <li>Inception (2010)</li>
+          <p>
+            A mind-bending sci-fi thriller directed by Christopher Nolan about a
+            group of thieves who enter dreams to steal secrets.
+          </p>
+          <li>Forrest Gump (1994)</li>
+          <p>
+            A heartwarming drama directed by Robert Zemeckis, following the life
+            of Forrest Gump, a man with a kind heart who unwittingly influences
+            key historical events while searching for his true love.
+          </p>
+          <li>The Dark Knight (2008)</li>
+          <p>
+            Directed by Christopher Nolan, this critically acclaimed superhero
+            film redefined the genre, featuring Heath Ledger’s iconic portrayal
+            of the Joker.
+          </p>
+        </ol>
+      </div>
+    </div>
+
+    <div id="education">
+      <h1>My Education</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Institution</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Toronto Metropolitan University</td>
+            <td>
+              <div>Information Technology Management</div>
+              <div>
+                <a
+                  href="https://www.torontomu.ca/information-technology-management/"
+                  >Program Information</a
+                >
+              </div>
+              <br />
+              <img
+                src="https://globalnews.ca/wp-content/uploads/2017/07/ryerson.jpg?quality=85&strip=all"
+                alt="Image of Toronto Metropolitan University formerly known as Ryerson University"
+                width="300"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Seneca Polytechnic College</td>
+            <td>
+              <div>Business Administration</div>
+              <div>
+                <a href="https://www.senecapolytechnic.ca/home.html"
+                  >Seneca Website</a
+                >
+              </div>
+
+              <br />
+              <img
+                src="https://www.nakdesignstrategies.com/cms/wp-content/uploads/2018/07/1723-001_2x1-1200x600.jpg"
+                alt="Image of Seneca College king campus building"
+                width="300"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>High School</td>
+            <td>-</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="my-courses">
+      <h2>My Courses</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Course Name</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Business Intelligence and Analytics</td>
+            <td>
+              This course provides an introduction to business intelligence and
+              analytics, defined as the extensive use of data, statistical and
+              quantitative analysis, exploratory and predictive models, and
+              fact-based management to drive decisions and actions. It involves
+              data warehouses, data marts, and data mining techniques for
+              business decision-making.
+            </td>
+          </tr>
+          <tr>
+            <td>Strategy, Management and Acquisition</td>
+            <td>
+              This course explores managing the information systems function in
+              organizations, focusing on plans, policies, and IT strategies from
+              a senior management perspective. It covers IT strategy alignment
+              with business strategy and preparing IT leaders for a globalized,
+              tech-intensive environment.
+            </td>
+          </tr>
+          <tr>
+            <td>Web Design and Management</td>
+            <td>
+              This course teaches designing, developing, and managing websites
+              using HTML5, CSS3, and JavaScript. It covers user-centered design,
+              layout, web publishing, and management, providing a complete
+              solution for business websites.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <footer>
+      <div id="contact">
+        <h1>Contact Me</h1>
+        <h3>Telephone: 1234567890</h3>
+        <h3>Email: myemail@123.com</h3>
+        <form action="#contact" id="form">
+          <!-- First element -->
+          <fieldset>
+            <!-- Second element -->
+            <legend>Enter your contact information</legend>
+            <!-- Third element -->
+            <label for="firstName">First name:</label>
+            <!-- Fourth element -->
+            <input type="text" name="firstName" id="firstName" />
+            <label for="lastName">Last name:</label>
+            <input type="text" name="lastName" id="lastName" />
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" />
+            <label for="phone">Phone:</label>
+            <input type="phone" name="phone" id="phone" />
+          </fieldset>
+
+          <div class="wrapper">
+            <div>
+              <p>Please rate my website</p>
+              <input type="radio" name="rate" id="one" />
+              <label for="one">1</label>
+              <input type="radio" name="rate" id="two" />
+              <label for="two">2</label>
+              <input type="radio" name="rate" id="three" />
+              <label for="three">3</label>
+              <input type="radio" name="rate" id="four" />
+              <label for="four">4</label>
+              <input type="radio" name="rate" id="five" />
+              <label for="five">5</label>
+            </div>
+
+            <div>
+              <!-- Select -->
+              <label for="contactMethod">Preferred Contact Method:</label>
+              <!-- Fifth Element -->
+              <select name="contactMethod" id="contactMethod">
+                <!-- Sixth Element -->
+                <optgroup label="Online Contact">
+                  <!-- Seventh Element -->
+                  <option value="Email">Email</option>
+                  <option value="LinkedIn">LinkedIn</option>
+                </optgroup>
+                <optgroup label="Direct Contact">
+                  <option value="Phone">Phone Call</option>
+                  <option value="SMS">SMS</option>
+                </optgroup>
+              </select>
+            </div>
+
+            <div>
+              <p>Extra comments</p>
+              <!-- Eight Element -->
+              <textarea name="comment" id="comment"></textarea>
+            </div>
+            <!-- Button to reset local storage and input fields -->
+            <button type="button" id="clearBtn">Clear</button>
+            <!-- Button to submit form -->
+            <input id="submitBtn" type="submit" value="Submit" />
+          </div>
+          <div id="dataOutput">
+            <div id="message"></div>
+            <button id="dataBtn">Show submitted form data</button>
+            <div id="dataContainer"></div>
+          </div>
+        </form>
+      </div>
+      <div>
+        <img
+          src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Picture of laptops on a desk"
+          width="1000"
+        />
+        <a href="#">Click to go to top of page</a>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+    <script src="form.js"></script>
+  </body>
+</html>
